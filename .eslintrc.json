@@ -15,7 +15,13 @@
   "extends": ["airbnb", "plugin:react/recommended", "plugin:react-hooks/recommended"],
   "plugins": ["react"],
   "rules": {
-    " no-unused-vars": "off",
+     "no-unused-vars": [
+      "error",
+      {
+        "varsIgnorePattern": "mockStore"
+      }
+    ]
+  ,
     "consistent-return":"off",
     "no-plusplus": "off",
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
