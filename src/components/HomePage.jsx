@@ -8,7 +8,7 @@ import africa from '../images/africa.png';
 import right from '../images/right.png';
 import { RegionAfricaAPI, openDetail, findDetail } from '../reducers/CountriesReducer';
 
-const Home = () => {
+function Home() {
   const RT = useSelector((state) => state.region.Africaregion);
   const isOpen = useSelector((state) => state.region.isOpen);
   const dispatch = useDispatch();
@@ -93,6 +93,6 @@ const Home = () => {
       )}
     </div>
   );
-};
+}
 
 export default Home;

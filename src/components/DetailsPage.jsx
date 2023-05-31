@@ -7,7 +7,7 @@ import arrow from '../images/arrow.png';
 import right from '../images/right.png';
 import { closeDetail } from '../reducers/CountriesReducer';
 
-const Details = () => {
+function Details() {
   const isOpen = useSelector((state) => state.region.isOpen);
   const targetdetails = useSelector((state) => state.region.targetdetails);
 
@@ -112,6 +112,6 @@ const Details = () => {
       )}
     </div>
   );
-};
+}
 
 export default Details;
