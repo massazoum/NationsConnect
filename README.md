@@ -86,7 +86,7 @@ To run tests, run the following command:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Deployment
-it will soon be put
+- [🚀 Live Demo]([#live-demo](https://zoum-bookstore.onrender.com/))
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -101,8 +101,8 @@ it will soon be put
 
 ### Key Features <a name="key-features"></a>
 
-- **[Fetching-data-from-API]**
-- **[Displaying-on-UI]**
+- **Fetching-data-from-API**
+- **Displaying-on-UI**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
